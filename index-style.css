@@ -1,0 +1,513 @@
+*
+{
+    margin:0px;
+    padding : 0px;
+}
+.container
+{
+    background-image:url(image/business-2.jpg) ; 
+    background-size:cover;   
+    height:1000px;
+}
+ .container .layer
+{
+    height:100%;   
+    background-color:rgba(0,0,0,.7);
+}
+.container .navbar
+{
+    height:60px;
+}
+.container .navbar .navbar-left
+{
+    float:left;
+    height:36px;
+    margin:25px 50px;
+}
+.container .navbar .navbar-left img
+{
+    height:36px;
+}
+.container .navbar .navbar-right
+{
+    float:right;
+   
+    margin:10px 50px;
+}
+.container .navbar .navbar-right ul
+{
+    list-style-type: none;
+    margin:15px;
+
+}
+.container .navbar .navbar-right ul li
+{
+    list-style-type: none;
+    float:left;
+    padding:10px;
+    color:#fff;
+ }
+ .container .navbar .navbar-right .btn 
+{
+    background-color: #fff;
+    color:black;
+    margin-left:10px;
+    
+}
+.container .home
+{
+    text-align:center;
+    color:#fff;
+    padding:50px;
+    margin:200px 100px;
+}
+.container .home p
+{
+    font-size:150%;
+    padding:30px;
+}
+.container .home h1
+{
+    font-size:350%;
+    font-weight:400;
+}
+.container .home button
+{
+    background-color:#4caf50;;
+    color:#fff;
+    padding:20px 30px;
+    border:none;
+    margin-top:50px;
+}
+
+
+.features
+{
+    overflow:auto;
+    margin:100px 50px;
+}
+.features .feature .layer
+{
+    width:33.333333333%;
+    float:left;
+}
+.features .feature .layer .feature-img
+{
+    width:10%;
+    height:100px;
+    float:left;
+    padding-right: 20px;
+}
+.features .feature .layer .feature-img img
+{
+    width:100%; 
+    float:left;
+}
+.features .feature .layer.disc
+{
+    width:90%;
+    float:left;  
+}
+
+
+.features .feature .layer .disc  p
+{
+    color: #888;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.86em;
+    padding:20px;
+}
+.father
+{
+    background-color: #f8f8f8;
+}
+.services 
+{
+    margin:100px 50px;
+    overflow:auto;
+}
+
+
+.services .services-disc
+{
+    text-align:center;
+    padding:50px 0 25px;
+}
+.services .services-disc h3 , .services .services-disc p
+{
+    font-weight:400;
+    font-size:36px;
+    padding:15px;
+}
+.services .services-disc p
+{
+    font-size:22px;
+    color:#888;
+    
+}
+.services .service .services-content
+{
+    width:33.333%;
+    float:left;
+    overflow:hidden;
+    margin-bottom:50px;
+     
+}
+.services .service .services-content img
+{
+    width:100%;
+    float:left;
+    margin:30px;
+}
+.services .service .services-content h5,.services .service .services-content p 
+{
+    background-color:#fff;
+    padding:10px 40px;
+    font-weight:400;
+    font-size:19px;
+    color:#888;
+}
+
+ .column
+{
+    overflow:auto;
+    margin:120px 60px;
+    padding :10px; 
+}
+.sec
+{
+    width:50%;
+    float:left;
+    padding-top:100px;
+}
+.sec h3
+{
+    font-weight:400;
+    font-size:36px;
+    padding:10px;
+}
+.sec p
+{
+    font-weight:400;
+    font-size:20px;
+    line-height: 1.5em;
+    color:#888;
+    padding:10px;
+}
+.sec ul  
+{
+    line-height:20px;
+}
+.sec ul li
+{
+    padding:10px;
+    color:686868;
+}
+.sec button
+{
+    margin-top:40px;
+    background-color:#4caf50;
+    border:none;
+    font-weight:bold;
+    padding:15px 15px;
+    color:#fff;
+    border-radius: 5px;
+}
+.secert-img
+{
+    width:50%;
+    float:right;
+}
+.secert-img img
+{
+    width:100%;
+}
+.imo
+{
+    background-color: #f8f8f8;
+    height:450px;
+}
+.imo .imo-img
+{
+    margin:50px auto;
+    text-align:center;
+}
+.imo .imo-img img
+{
+    width:80px;
+    height:80px;
+}
+.imo .imo-disc
+{
+    overflow:auto;
+}
+
+.imo .imo-disc .child
+{
+    width:33.33%;
+    float:left;
+    line-height:29px;
+}
+.imo .imo-disc .child p
+{
+    background-color:#fff;
+    color:#888;
+    font-weight:400;
+    padding:20px;
+    margin:20px;
+}
+.imo .imo-disc .child h4
+{
+    padding:5px 30px ;
+}
+.imo .imo-disc .child a
+{
+    padding-left:30px;
+    color:#888;
+}
+.home
+{
+    margin:75px auto;
+    overflow:auto;
+}
+.home .react
+{
+    width:25%;
+    float:left;
+    text-align:center;
+    line-height: 50px;
+}
+.home .react img
+{
+    width:100px;
+    height:100px;
+    padding-bottom:10px;
+}
+.home .react p 
+{
+    font-size:60px;
+    font-weight:400;
+    color:rgba(0, 0, 0, 0.75);
+    padding-bottom:10px;
+}
+.home .react h4
+{
+    font-size:25px;
+    font-weight:400;
+    color:#686868;
+}
+.tower 
+{
+    background-image:url(image/full-2.jpg);
+    background-size:100% 100%;
+    text-align:center;
+    color:#fff;
+    margin:100px 0 50px;
+}
+.tower .layer
+{
+    background-color:rgba(0,0,0,.4);
+    padding:100px ;
+}
+.tower .layer h2
+{
+    padding:15px 50px;
+    font-weight:600;
+    font-size:32px;
+    line-height:1.86em;
+}
+.tower .layer p
+{
+    line-height:1.86em;
+    font-size:1.15em;
+    font-weight:400;
+    margin:0 250px;
+}
+.tower .layer button
+{
+    margin-top:30px;
+    background-color:#4caf50;
+    border:none;
+    font-weight:bold;
+    padding:15px 15px;
+    color:#fff;
+    border-radius: 5px;
+}
+.other-services
+{
+    text-align: center;
+    padding:10px;
+    line-height:1.86em;
+    margin:40px;
+}
+.other-services h3
+{
+    font-weight:400;
+    font-size:36px;
+    padding:20px;
+}
+.other-services p
+{
+    font-size:21px;
+    padding:10px;
+    color:rgb(136, 136, 136);
+}
+.service-one
+{
+    background-color:#fff;
+    overflow:auto;
+    margin:30px;
+}
+.service-one .ser1
+{
+    width:33.33333333%;
+    float:left;
+    
+}
+.service-one .ser1 h5
+{
+    padding:10px;
+    margin-right:30px;
+    font-weight:600;
+    font-size:20px;
+    color:#303030;
+    line-height: 1.38em;
+}
+.service-one .ser1 p
+{
+    padding:10px;
+    margin-right:30px;
+    color:#686868;
+    line-height: 1.86em;
+}
+.collective
+{
+    background-color: #f8f8f8; 
+    overflow:auto;
+    margin-top:100px ;
+    padding:100px 50px 0;
+}
+.collective .photo
+{
+    width:20%;
+    float:left;
+    padding-bottom:50px;
+}
+.collective .photo img
+{
+    width:70%;
+    padding:10px;
+    background-color:transparent;
+}
+
+.convinced
+{
+    background-color: #4caf50;
+    margin: auto; 
+    overflow: auto;
+   padding: 50px;
+
+}
+.convinced .feeling 
+{
+    background-color: transparent;
+  
+    line-height: 35px; 
+    width: 85%;
+     float: left;
+     color: #fff;
+}
+.convinced .button
+{
+    background-color: transparent;
+    width: 15%;
+    float: left;
+}
+.button button
+{
+    padding: 17px 23px;
+    border-radius: 6px;
+    border: none;
+    color:#686868;
+}
+.feeling .p1
+{
+    font-size: 32px;
+}
+.feeling .p2{
+    font-size: 20px;
+    color:rgba(255,255,255,.82);
+}
+
+
+.about
+{
+    background-color:#1f2021;
+    
+    overflow:auto;
+    padding:50px;
+}
+.about .about-us
+{
+    width:24%;
+    float:left;
+    line-height:32px;
+    height:225px;
+}
+.about .about-us h4
+{
+    font-size:20px;
+    color:#fff;
+    padding:10px;
+}
+.about .about-us p
+{
+    padding:10px;
+    color:#58606b;
+}
+
+.end
+{
+    background-color:black;
+    overflow:auto;
+}
+.end .copyright
+{
+    float:left;
+    width:60%;
+}
+.end .copyright p
+{
+    color:#58606b;
+    padding:30px 30px 0 55px;
+    
+}
+
+.end .icons
+{
+    width:20%;
+    overflow:auto;
+}
+.end .icons .img
+{
+    width:20%;
+    height:10%;
+    float:left;
+    margin-right:10px;
+}
+.end .icons  img
+{
+    width:100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
